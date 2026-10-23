@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Sharp 90-degree Square Retro-Tech Chassis (rx="0") -->
+  <rect x="0" y="0" width="120" height="120" rx="0" fill="#0B0F0D"/>
+  <rect x="2" y="2" width="116" height="116" rx="0" stroke="#22C55E" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="8" y="8" width="104" height="104" rx="0" stroke="#1E2923" stroke-width="1"/>
+
+  <!-- Precision Telemetry Grid Lines -->
+  <line x1="8" y1="36" x2="112" y2="36" stroke="#15221B" stroke-width="1"/>
+  <line x1="8" y1="60" x2="112" y2="60" stroke="#15221B" stroke-width="1"/>
+  <line x1="8" y1="84" x2="112" y2="84" stroke="#15221B" stroke-width="1"/>
+  <line x1="36" y1="8" x2="36" y2="112" stroke="#15221B" stroke-width="1"/>
+  <line x1="60" y1="8" x2="60" y2="112" stroke="#15221B" stroke-width="1"/>
+  <line x1="84" y1="8" x2="84" y2="112" stroke="#15221B" stroke-width="1"/>
+
+  <!-- Industrial Corner Reticles (Sharp 90-deg) -->
+  <path d="M12 24V12H24" stroke="#22C55E" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M96 12H108V24" stroke="#22C55E" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M12 96V108H24" stroke="#22C55E" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M96 108H108V96" stroke="#22C55E" stroke-width="2.5" stroke-linecap="square"/>
+
+  <!-- Inner Tactical Shield Frame (Angular Polygon) -->
+  <polygon points="60,20 92,32 92,66 60,96 28,66 28,32" fill="#101B15" stroke="#16A34A" stroke-width="2" stroke-linejoin="miter"/>
+
+  <!-- High-Frequency Pulse Waveform (4663 Signal) -->
+  <polyline
+    points="16,60 36,60 44,44 53,78 63,30 72,68 79,52 86,60 104,60"
+    stroke="#4ADE80"
+    stroke-width="4"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Signal Nodes (Sharp Squares) -->
+  <rect x="13" y="57" width="6" height="6" fill="#22C55E"/>
+  <rect x="60" y="27" width="6" height="6" fill="#FFFFFF"/>
+  <rect x="101" y="57" width="6" height="6" fill="#22C55E"/>
+
+  <!-- Bottom 14-Bit Binary Strip Indicator -->
+  <rect x="30" y="100" width="6" height="3" fill="#22C55E"/>
+  <rect x="39" y="100" width="6" height="3" fill="#22C55E"/>
+  <rect x="48" y="100" width="6" height="3" fill="#EF4444"/>
+  <rect x="57" y="100" width="6" height="3" fill="#22C55E"/>
+  <rect x="66" y="100" width="6" height="3" fill="#334155"/>
+  <rect x="75" y="100" width="6" height="3" fill="#22C55E"/>
+  <rect x="84" y="100" width="6" height="3" fill="#22C55E"/>
+</svg>
